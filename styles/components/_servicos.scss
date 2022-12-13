@@ -1,0 +1,46 @@
+@import "../abstract/variaveis";
+
+#servicos {
+  margin: 80px;
+  h4 {
+    font-size: $tamanho-do-texto / 1.4;
+    color: #f1cd96;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    margin: 0.4rem;
+  }
+  h3 {
+    text-align: center;
+    font-size: $tamanho-do-texto / 1.8;
+    margin-bottom: 80px;
+    margin-top: 2rem;
+    font-weight: 300;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    width: 360px;
+    text-align: center;
+    padding: 1px;
+    margin-left: 15rem;
+    margin-bottom: 0.5rem;
+  }
+  .descanso {
+    display: inline-block;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 0rem;
+    margin-left: 57.6rem;
+  }
+  p {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 5rem;
+    justify-content: space-between;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+  }
+}

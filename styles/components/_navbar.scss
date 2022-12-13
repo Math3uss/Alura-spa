@@ -1,0 +1,19 @@
+nav {
+  text-align: center;
+  ul {
+    li {
+      display: inline-block;
+      padding: 1rem;
+      a {
+        font-style: italic;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: bold;
+        color: #f1cd96;
+        &:hover {
+          border-bottom: 2px solid #f1cd96;
+        }
+      }
+    }
+  }
+}
